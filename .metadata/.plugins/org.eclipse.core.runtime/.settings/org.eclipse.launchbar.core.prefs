@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Flash_ntz,org.eclipse.launchbar.core.descriptorType.default\:Flash_Unlock,org.eclipse.launchbar.core.descriptorType.default\:Flash_tfm_bl2_s_ns,org.eclipse.launchbar.core.descriptorType.default\:Flash_tfm_ns,org.eclipse.launchbar.core.descriptorType.default\:Flash_tfm_ns_update,org.eclipse.launchbar.core.descriptorType.default\:Flash_tfm_s_ns_update,org.eclipse.launchbar.core.descriptorType.default\:Trustzone_Disable,org.eclipse.launchbar.core.descriptorType.default\:Trustzone_Enable,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_tfm_debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_tfm_debug_bl2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_ntz_debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_ntz_debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_ntz_debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:b_u585i_iot02a_tfm_debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:Flash_Unlock/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Flash_Unlock/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Flash_ntz/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Flash_ntz/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,49 @@
+13:34:28 **** Incremental Build of configuration Debug for project b_u585i_iot02a_ntz ****
+make -j16 all 
+arm-none-eabi-gcc "C:/ST/iot-reference-stm32u5/Common/app/shadow_device_task.c" -mcpu=cortex-m33 -std=gnu11 -g3 '-DLFS_CONFIG=fs/lfs_config.h' -DUSE_HAL_DRIVER -DDEBUG -DSTM32 -DB_U585I_IOT02A -DSTM32U585AIIxQ -DSTM32U5 -DSTM32U585xx '-DMBEDTLS_CONFIG_FILE="mbedtls_config_ntz.h"' -c -I"C:/ST/iot-reference-stm32u5/Middleware/pkcs11" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Inc" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Src" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Src/ota_pal" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/corePKCS11/source/dependency/3rdparty/mbedtls_utils" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/littlefs" -I"C:/ST/iot-reference-stm32u5/Drivers/BSP/B-U585I-IOT02A" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/portable/os" -I"C:/ST/iot-reference-stm32u5/Middleware/tinycbor/src" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/mbedtls/library" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/mbedtls/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/IoTDeviceDefender/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/IoTDeviceShadow/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/include" -I"C:/ST/iot-reference-stm32u5/Common/app/mqtt" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/backoffAlgorithm/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreJSON/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT-Agent/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT/source/interface" -I"C:/ST/iot-reference-stm32u5/Drivers/CommonIO/include" -I"C:/ST/iot-reference-stm32u5/Drivers/CommonIO/gpio" -I"C:/ST/iot-reference-stm32u5/Common/boards" -I"C:/ST/iot-reference-stm32u5/Common/net/lwip_port/include" -I"C:/ST/iot-reference-stm32u5/Middleware/lwip/src/include" -I"C:/ST/iot-reference-stm32u5/Drivers/CMSIS/Core/Include" -I"C:/ST/iot-reference-stm32u5/Common/cli" -I"C:/ST/iot-reference-stm32u5/Drivers/CMSIS/Device/ST/STM32U5xx/Include" -I"C:/ST/iot-reference-stm32u5/Drivers/STM32U5xx_HAL/Inc" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/kernel/portable/GCC/ARM_CM33_NTZ/non_secure" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/kernel/include" -I"C:/ST/iot-reference-stm32u5/Common/include" -I"C:/ST/iot-reference-stm32u5/Common/config" -I"C:/ST/iot-reference-stm32u5/Common" -I"C:/ST/iot-reference-stm32u5/Common/kvstore" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/corePKCS11/source/include" -Og -ffunction-sections -fdata-sections -Wall -Wextra -Wmissing-include-dirs -Wswitch-default -Wconversion -fstack-usage -MMD -MP -MF"Common/app/shadow_device_task.d" -MT"Common/app/shadow_device_task.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Common/app/shadow_device_task.o"
+arm-none-eabi-gcc "C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c" -mcpu=cortex-m33 -std=gnu11 -g3 '-DLFS_CONFIG=fs/lfs_config.h' -DUSE_HAL_DRIVER -DDEBUG -DSTM32 -DB_U585I_IOT02A -DSTM32U585AIIxQ -DSTM32U5 -DSTM32U585xx '-DMBEDTLS_CONFIG_FILE="mbedtls_config_ntz.h"' -c -I"C:/ST/iot-reference-stm32u5/Middleware/pkcs11" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Inc" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Src" -I"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/Src/ota_pal" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/corePKCS11/source/dependency/3rdparty/mbedtls_utils" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/littlefs" -I"C:/ST/iot-reference-stm32u5/Drivers/BSP/B-U585I-IOT02A" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/portable/os" -I"C:/ST/iot-reference-stm32u5/Middleware/tinycbor/src" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/mbedtls/library" -I"C:/ST/iot-reference-stm32u5/Middleware/ARM/mbedtls/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/IoTDeviceDefender/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/IoTDeviceShadow/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/AWS/OTA/source/include" -I"C:/ST/iot-reference-stm32u5/Common/app/mqtt" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/backoffAlgorithm/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreJSON/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT-Agent/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT/source/include" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/coreMQTT/source/interface" -I"C:/ST/iot-reference-stm32u5/Drivers/CommonIO/include" -I"C:/ST/iot-reference-stm32u5/Drivers/CommonIO/gpio" -I"C:/ST/iot-reference-stm32u5/Common/boards" -I"C:/ST/iot-reference-stm32u5/Common/net/lwip_port/include" -I"C:/ST/iot-reference-stm32u5/Middleware/lwip/src/include" -I"C:/ST/iot-reference-stm32u5/Drivers/CMSIS/Core/Include" -I"C:/ST/iot-reference-stm32u5/Common/cli" -I"C:/ST/iot-reference-stm32u5/Drivers/CMSIS/Device/ST/STM32U5xx/Include" -I"C:/ST/iot-reference-stm32u5/Drivers/STM32U5xx_HAL/Inc" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/kernel/portable/GCC/ARM_CM33_NTZ/non_secure" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/kernel/include" -I"C:/ST/iot-reference-stm32u5/Common/include" -I"C:/ST/iot-reference-stm32u5/Common/config" -I"C:/ST/iot-reference-stm32u5/Common" -I"C:/ST/iot-reference-stm32u5/Common/kvstore" -I"C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/corePKCS11/source/include" -Og -ffunction-sections -fdata-sections -Wall -Wextra -Wmissing-include-dirs -Wswitch-default -Wconversion -fstack-usage -MMD -MP -MF"Common/app/soilMoisture_sensor_publish.d" -MT"Common/app/soilMoisture_sensor_publish.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Common/app/soilMoisture_sensor_publish.o"
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c: In function 'prvPublishAndWaitForAck':
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:143:28: warning: conversion from 'size_t' {aka 'unsigned int'} to 'short unsigned int' may change value [-Wconversion]
+  143 |         .topicNameLength = strlen( pcTopic ),
+      |                            ^~~~~~
+In file included from C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:45:
+C:/ST/iot-reference-stm32u5/Middleware/FreeRTOS/kernel/include/task.h:2577:5: warning: conversion to 'BaseType_t' {aka 'long int'} from 'uint32_t' {aka 'long unsigned int'} may change the sign of the result [-Wsign-conversion]
+ 2577 |     ulTaskGenericNotifyTake( ( uxIndexToWaitOn ), ( xClearCountOnExit ), ( xTicksToWait ) )
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:171:19: note: in expansion of macro 'ulTaskNotifyTakeIndexed'
+  171 |         xResult = ulTaskNotifyTakeIndexed( MQTT_NOTIFY_IDX,
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c: In function 'xUpdateSensorData':
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:252:25: warning: conversion from 'long unsigned int' to 'uint16_t' {aka 'short unsigned int'} may change value [-Wconversion]
+  252 |   uhADCxConvertedData = HAL_ADC_GetValue(&adc_handler) & 0xFFFFFFFE;
+      |                         ^~~~~~~~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:254:25: warning: conversion to 'int16_t' {aka 'short int'} from 'uint16_t' {aka 'short unsigned int'} may change the sign of the result [-Wsign-conversion]
+  254 |   pxData->ADC_Reading = uhADCxConvertedData;
+      |                         ^~~~~~~~~~~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c: In function 'vSoilMoistureSensorPublishTask':
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:349:52: warning: conversion to 'size_t' {aka 'unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+  349 |                                                    bytesWritten );
+      |                                                    ^~~~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:343:21: warning: variable 'time_spent' set but not used [-Wunused-but-set-variable]
+  343 |              double time_spent = 0.0;
+      |                     ^~~~~~~~~~
+C:/ST/iot-reference-stm32u5/Common/app/soilMoisture_sensor_publish.c:289:11: warning: variable 'saved_SoilMoisture' set but not used [-Wunused-but-set-variable]
+  289 |     float saved_SoilMoisture = -1;
+      |           ^~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "b_u585i_iot02a_ntz.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:/ST/iot-reference-stm32u5/Projects/b_u585i_iot02a_ntz/STM32U585AIIXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="b_u585i_iot02a_ntz.map" -Wl,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: b_u585i_iot02a_ntz.elf
+ 
+arm-none-eabi-size   b_u585i_iot02a_ntz.elf 
+arm-none-eabi-objdump -h -S  b_u585i_iot02a_ntz.elf  > "b_u585i_iot02a_ntz.list"
+arm-none-eabi-objcopy  -O ihex  b_u585i_iot02a_ntz.elf  "b_u585i_iot02a_ntz.hex"
+arm-none-eabi-objcopy  -O binary  b_u585i_iot02a_ntz.elf  "b_u585i_iot02a_ntz.bin"
+   text	   data	    bss	    dec	    hex	filename
+ 559606	   2272	 526600	1088478	 109bde	b_u585i_iot02a_ntz.elf
+Finished building: default.size.stdout
+ 
+Finished building: b_u585i_iot02a_ntz.bin
+Finished building: b_u585i_iot02a_ntz.hex
+ 
+ 
+Finished building: b_u585i_iot02a_ntz.list
+ 
